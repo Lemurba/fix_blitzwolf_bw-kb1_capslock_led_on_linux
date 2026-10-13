@@ -1,4 +1,4 @@
-# fix_blitzwolf_bw-kb1_capslock_led_on_linux
+# Fix Blitzwolf BW-KB1 capslock led on linux
 
 Fixes the **Caps Lock LED getting stuck on** with the **BlitzWolf BW-KB1**
 keyboard (USB `258a:0049`) on Linux.
