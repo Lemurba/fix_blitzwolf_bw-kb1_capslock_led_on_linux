@@ -1,0 +1,11 @@
+[Unit]
+Description=Fix stuck Caps Lock LED (keyboard @VID@:@PID@)
+After=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/blitzwolf-capsled --device @VID@:@PID@
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

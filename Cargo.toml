@@ -1,0 +1,14 @@
+[package]
+name = "blitzwolf-capsled"
+version = "1.0.1"
+edition = "2024"
+rust-version = "1.85"
+description = "Fixes the stuck Caps Lock LED on the BlitzWolf BW-KB1 keyboard on Linux"
+license = "MIT"
+repository = "https://github.com/Lemurba/fix_blitzwolf_bw-kb1_capslock_led_on_linux"
+
+[dependencies]
+
+[profile.release]
+strip = true
+lto = true

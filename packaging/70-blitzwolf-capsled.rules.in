@@ -1,0 +1,3 @@
+# Gives the logged-in user access to the hidraw node of keyboard @VID@:@PID@,
+# required by blitzwolf-capsled to read the Caps Lock key and fix the LED.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="@VID@", ATTRS{idProduct}=="@PID@", TAG+="uaccess"
